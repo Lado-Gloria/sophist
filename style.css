@@ -1,0 +1,261 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and(max-width:992px){
+    body{
+        background-color: blue;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      overflow-x: hidden;
+    }
+  }
+.home{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    /* left: 20%; */
+}
+@media screen and (max-width: 600px) {
+    .home {
+      float: none;
+      width: 100%;
+    }
+  }
+@media  (max-width:480px) {
+    .home
+    {
+        font-size: 10px;
+        width: 100%;
+    }
+    }
+    @media  (min-width:481px) and (max-width:768px) {
+        .home
+        {
+            font-size: 15px;
+        }
+        }
+        @media  (min-width:769px) and (max-width:992px) {
+            .home
+            {
+                font-size: 20px;
+            }
+            }
+            @media  (min-width:992px) and (max-width:1024px) {
+                .home
+                {
+                    font-size: 25px;
+                }
+                }
+
+   #img1{
+    position: relative;
+    left: 20%;
+    bottom: 20px;
+    
+   }  
+ @media only screen and (max-width:700px){
+    .img1{
+        display: grid;
+   grid-template-columns: repeat(1,1fr);
+   
+ 
+ 
+    }
+}
+   .cloth{
+    position: relative;
+    top: 100px;
+    font-size:large;
+    color: beige;
+   } 
+   @media (max-width: 480px) {
+    .cloth{
+        font-size: 2px;
+        overflow-x: hidden;
+        width: 100%;
+    }
+    }
+    @media (min-width: 481px) and (max-width:768px) {
+        .cloth{
+            font-size: 4px;
+        }
+        }
+        @media (min-width: 769px) and (max-width:992px) {
+            .cloth{
+                font-size: 4px;
+                width: 100%;
+            }
+            }
+            @media (min-width: 769px) and (max-width:1024px) {
+                .cloth{
+                    font-size: 6px;
+                }
+                }
+                @media (min-width: 1025px) and (max-width:1200px) {
+                    .cloth{
+                        font-size: 8px;
+                    }
+                    }   
+   
+   .ta{
+    background-color: rgb(97, 97, 135);
+    background-size: cover;
+   } 
+   @media (max-width: 480px) {
+    .ta{
+        font-size: 4px;
+        overflow-x: hidden;
+        width: 100%;
+      
+    }
+    }
+    @media (min-width: 481px) and (max-width:768px) {
+        .ta{
+            font-size: 2px;
+        }
+        }
+        @media (min-width: 481px) and (max-width:600px) {
+            .ta{
+                font-size: 4px;
+            }
+            }
+            @media (min-width: 769px) and (max-width:1024px) {
+                .ta{
+                    font-size: 6px;
+                }
+                }
+                @media (min-width: 1025px) and (max-width:1200px) {
+                    .ta{
+                        font-size: 8px;
+                    }
+                    }
+
+   #dis{
+    height: 50px;
+    width: 10%;
+    margin-left: 5%;
+    color: aliceblue;
+    background-color: plum;
+    border: plum;
+    position: relative;
+  
+   } 
+
+ @media (min-width: 481px) and (max-width:600px) {
+    #dis{
+        font-size: 4px;
+        overflow-x: hidden;
+        /* width: 100%; */
+    }
+    }
+    @media (min-width: 769px) and (max-width:1024px) {
+        #dis{
+            font-size: 6px;
+        }
+        }
+        @media (min-width: 1025px) and (max-width:1200px) {
+            #dis{
+                font-size: 8px;
+            }
+            } 
+  #diss{
+                 height: 50px;
+                width: 20%;
+                margin-left: 20%;
+                color: aliceblue;
+                background-color: plum;
+                border: plum;
+                position: relative;
+                top: 75px;
+               } 
+.grup{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  @media only screen and (max-width:600px){
+    .grup{
+     grid-template-columns: repeat(1,1fr);
+    }
+  
+  }
+  @media (max-width: 480px) {
+    .grup{
+        font-size: 40px;
+        overflow-x: hidden;
+        position: relative;
+     
+        
+
+    }
+    }
+    @media (min-width: 481px) and (max-width:768px) {
+        .grup{
+            font-size: 2px;
+        }
+        }
+        @media (min-width: 481px) and (max-width:600px) {
+            .grup{
+                font-size: 4px;
+            }
+            }
+            @media (min-width: 769px) and (max-width:1024px) {
+                .grup{
+                    font-size: 6px;
+                }
+                }
+                @media (min-width: 1025px) and (max-width:1200px) {
+                    .grup{
+                        font-size: 8px;
+                    }
+                    }    
+ .vall{
+    position: relative;
+    top: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  @media only screen and (max-width:600px){
+    .vall{
+     grid-template-columns: repeat(1,1fr);
+     overflow-x: hidden;
+     width: 100%;
+    
+    }
+}
+.come{
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+.to{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    width: 100%;
+}
+ footer{
+    position: relative;
+    top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+ }
+ @media only screen and (max-width:600px){
+    footer{
+     grid-template-columns: repeat(1,1fr);
+     font-size: x-small;
+     overflow-x: hidden;
+     width: 50%;
+    }
+  
+  }
+    
